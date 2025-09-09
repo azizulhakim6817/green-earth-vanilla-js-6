@@ -1,4 +1,4 @@
-//! Loading end-----------------------------------------------
+//! Loading end--------------
 const loading = (status) => {
   if (status) {
     document.getElementById("spinner").classList.remove("hidden");
@@ -9,7 +9,7 @@ const loading = (status) => {
   }
 };
 
-//! categories html left-------------------------------------------
+//! categories html left------
 const categoryApi = () => {
   const url = "https://openapi.programming-hero.com/api/categories";
   fetch(url)
@@ -91,7 +91,7 @@ const displayCategoryClick = (plants) => {
   loading(false);
 };
 
-//! All plans show---------------------------------------
+//! All plans show------------------
 const allPlansApi = async () => {
   loading(true);
   const url = "https://openapi.programming-hero.com/api/plants";
@@ -191,7 +191,7 @@ const removeItem = (index) => {
   updataCard();
 };
 
-//! displayPlanModal----------------------------------
+//! displayPlanModal------------------
 const plantTreeDetailsModal = (id) => {
   const url = `https://openapi.programming-hero.com/api/plant/${id}`;
   fetch(url)
