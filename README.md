@@ -1,24 +1,26 @@
-
 ### Netlify Live Link :
+
 https://incredible-banoffee-4d3d36.netlify.app/
 
-### GitHub Private Repository: 
+### GitHub Private Repository:
+
 https://github.com/azizulhakim6817/green-earth-vanilla-js-6
 
 # JavaScript ES6 Concepts
 
 ## 1) Difference between `var`, `let`, and `const`
 
-- **var** → Function-scoped, can reassign & redeclare, hoisted.  
-- **let** → Block-scoped, can reassign, cannot redeclare, hoisted but uninitialized.  
-- **const** → Block-scoped, cannot reassign or redeclare, hoisted but uninitialized.  
+- **var** → Function-scoped, can reassign & redeclare, hoisted.
+- **let** → Block-scoped, can reassign, cannot redeclare, hoisted but uninitialized.
+- **const** → Block-scoped, cannot reassign or redeclare, hoisted but uninitialized.
 
 **Example:**
+
 ```js
-var a = 1; a = 2; var a = 3; // OK
-let b = 1; b = 2; // OK
+var a = 1; a = 2; var a = 3;
+let b = 1; b = 2;
 // let b = 3; ❌
-const c = 1; 
+const c = 1;
 // c = 2 ❌
 
 ## 2) Difference between map(), forEach(), and filter()
@@ -33,7 +35,7 @@ Example:
 const numbers = [1, 2, 3, 4];
 
 // forEach
-numbers.forEach(n => console.log(n)); // 1 2 3 4 
+numbers.forEach(n => console.log(n)); // 1 2 3 4
 
 // map
 const doubled = numbers.map(n => n * 2); // [2, 4, 6, 8]
@@ -92,3 +94,4 @@ const text = `Line 1 Line 2 Line 3`;
 
 
 # b12a6-green-earth-azizul68178
+```
